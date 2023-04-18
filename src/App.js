@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Detail.css';
+import Header from './component/Header';
+import DetailProduit from './component/DetailProduit';
+import DetailEvenement from './component/DetailEvenement';
+import DetailProduit_respo from './component/DetailProduit_respo';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+
+
+      {/* PART YASSINE AHOUFI */}
+      {/* <Header />
+      <DetailProduit />
+      <DetailEvenement />
+      <DetailProduit_respo /> */}
+      {/*END PART YASSINE AHOUFI */}
+
+
     </div>
   );
 }
