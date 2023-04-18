@@ -12,9 +12,6 @@ function App() {
   return (
     <div className="App">
 
-
-      test10
-
       {/* PART YASSINE AHOUFI */}
       {/* <Header />
       <DetailProduit />
