@@ -6,11 +6,13 @@ import Header from './component/Header';
 import DetailProduit from './component/DetailProduit';
 import DetailEvenement from './component/DetailEvenement';
 import DetailProduit_respo from './component/DetailProduit_respo';
+import Admin_compte from './component/Admin_compte';
 
 
 function App() {
   return (
     <div className="App">
+      <Admin_compte />
 
 
       test
