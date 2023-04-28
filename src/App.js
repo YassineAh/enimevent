@@ -13,9 +13,13 @@ import Admin_accueil from './component/Admin_accueil';
 function App() {
   return (
     <div className="App">
+      <Header/>
+      <DetailProduit/>
+
 
 
     </div>
+    
   );
 }
 
