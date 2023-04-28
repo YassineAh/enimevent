@@ -86,7 +86,8 @@ function Admin_compte() {
           </tbody>
         </Table>
       </div>
-
+      <Navbar>
+        <Nav>
           <Nav.Link style={{marginRight: "650px"}} href="#profile" >Profile</Nav.Link> 
           <Nav.Link href="#deconnexion" >Déconnexion</Nav.Link>
         </Nav>

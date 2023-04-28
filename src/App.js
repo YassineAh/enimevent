@@ -10,9 +10,10 @@ import DetailProduit_respo from './component/DetailProduit_respo';
 import Paiement from './component/Paiement'
 import Achats from './component/Achats';
 import Admin_compte from './component/Admin_compte';
-import Admin_accueil from './component/Admin_accueil';
-=======
-import Admin_compte from './component/Admin_compte';
+import SignIn from './component/Interfaces/SingIn'
+import SignUp from './component/Interfaces/SignUp'
+import InterfaceClinets from './component/Interfaces/InterfaceClients'
+import InterfaceClub from './component/Interfaces/InterfaceClub'
 
 
 
@@ -20,10 +21,10 @@ function App() {
   return (
     <div className="App">
 
-      <Header/>
+      {/* <Header/>
       <DetailProduit/>
-=======
-      <Admin_compte />
+
+      <Admin_compte /> */}
 
 
 
@@ -39,6 +40,10 @@ function App() {
       <br /><br />
       <Achats /> */}
       {/*fin */}
+      <SignIn />
+      <SignUp />
+      <InterfaceClinets />
+      <InterfaceClub />
 
 
 
