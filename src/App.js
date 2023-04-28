@@ -7,6 +7,7 @@ import DetailProduit from './component/DetailProduit';
 import DetailEvenement from './component/DetailEvenement';
 import DetailProduit_respo from './component/DetailProduit_respo';
 import Admin_compte from './component/Admin_compte';
+import Admin_accueil from './component/Admin_accueil';
 
 
 function App() {
