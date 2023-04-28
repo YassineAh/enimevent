@@ -2,9 +2,16 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, Table } from 'react-bootstrap';
 
+import logo from '../logo/logo-enim.png';
+
+
 
 
 function Admin_compte() {
+
+  
+  
+
   const [productData, setProductData] = useState([
     { id: 1, image: 'image1', description: 'description1', price1: 10, price2: 20 },
     { id: 2, image: 'image2', description: 'description2', price1: 30, price2: 40 },
@@ -21,6 +28,7 @@ function Admin_compte() {
   }
 
 
+
   return (
     <div>
 
@@ -28,6 +36,57 @@ function Admin_compte() {
         
         <Nav style={{justifyContent: "space-evenly",position:"absolute",width:"1223px",height: "50px",left: "0px",top: "-4px",background:"#B3B1C7", }}className="Nav">
           <Nav.Link style={{marginRight: "100px"}}href="#home"  >Accueil</Nav.Link> 
+
+          <Nav.Link style={{marginRight: "100px"}}href="#home"  >Accueil</Nav.Link>
+          <Nav.Link style={{marginRight: "600px"}} href="#profile" >Profile</Nav.Link> 
+          <Nav.Link href="#deconnexion" >Déconnexion</Nav.Link>
+          <Navbar.Brand>
+            <img
+              src={logo}
+             width="45"
+            height="45"
+            className="d-inline-block align-top"
+            alt="Logo"
+            style={{ marginLeft: '60px',background:"#B3B1C7" }}
+            
+           
+          />
+          </Navbar.Brand>
+        </Nav>
+        
+      </Navbar>
+
+
+      <div className="containerCompte">
+        <Table striped bordered hover style={{position: "absolute",top: "159px"}}className="tableCompte">
+          <thead>
+            <tr>
+              <th>Id-produit</th>
+              <th>Image</th>
+              <th>Description</th>
+              <th>Prix Enimiste</th>
+              <th>Prix Externe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+            </tr>
+          </tbody>
+        </Table>
+      </div>
+
           <Nav.Link style={{marginRight: "650px"}} href="#profile" >Profile</Nav.Link> 
           <Nav.Link href="#deconnexion" >Déconnexion</Nav.Link>
         </Nav>
@@ -56,6 +115,7 @@ function Admin_compte() {
           ))}
         </tbody>
       </Table>
+
     
       <div style={{position: "absolute", top:"525px", left: "80%", transform: "translateX(-50%)"}}>
         <button style={{marginRight: "10px", color: "#030AB3", backgroundColor: "#D9D9D9", border: "none"}}>Ajouter</button>
