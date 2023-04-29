@@ -21,7 +21,7 @@ function DetailEvenement() {
                 <br />
                 <h6>Club : Mines IT</h6>
                 <br />
-                <img src={image} alt="Image" style={{ width: '500px' }} />
+                <img  alt="Image" style={{ width: '500px' }} />
 
 
             </div>
