@@ -5,7 +5,7 @@ import image from '../logo/creditcard.png';
 function Paiement(){
     return(
     <div>
-        <h1> Détail de paiement</h1><br/>
+        <br/><br/><br/>
         <form  className="formulaire" method="post" action="./traitement.php" >
             
            

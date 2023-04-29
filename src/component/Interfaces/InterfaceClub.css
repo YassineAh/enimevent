@@ -1,0 +1,30 @@
+#comp{
+    width: 100%;
+}
+#row{
+    display: grid;
+    gap: 0 !important;
+    grid-auto-flow: column;
+    grid-auto-columns: 26%;
+    margin-left: 8px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(241, 221, 221);
+    border-radius: 20px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(163, 143, 143);
+    border-radius: 20px;
+    width: 20%;
+
+}
+.btn1{
+    margin: 20px;
+    
+}
