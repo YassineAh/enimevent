@@ -3,6 +3,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Detail.css';
 import Header from './component/Header';
+import Header_club from './component/Header_club';
+import Header_admin from './component/Header_admin';
 import DetailProduit from './component/DetailProduit';
 import DetailEvenement from './component/DetailEvenement';
 import DetailProduit_respo from './component/DetailProduit_respo';
@@ -27,28 +29,29 @@ function App() {
   return (
     <div className="App">
 
-     
-      {/* partie jihane */}
-           {/* <Header />
-       <Admin_compte /> 
-       <Admin_accueil /> */}
 
-       {/* partie ezzakel */}
-       {/* <Header />
-         <Profil />   
-        <Historique />  */}
+      {/* partie jihane */}
+      {/* <Header_admin />
+      <Admin_compte />
+      <Admin_accueil /> */}
+
+      {/* partie ezzakel */}
+      {/* <Header />
+      <Profil />
+      <Historique /> */}
 
       {/* PARTIE YASSINE AHOUFI */}
-      {/*<Header />
+      {/* <Header />
       <DetailProduit />
       <DetailEvenement />
-      <DetailProduit_respo /> 
-      {/*END PART YASSINE AHOUFI */}
+      <Header_club />
+      <DetailProduit_respo />  */}
+      {/* END PART YASSINE AHOUFI */}
 
       {/*Partie Anass Rharib*/}
-
-      {/* <Paiement/>
-      <Header />
+      {/* <Header />
+      <Paiement />
+      <Header_club />
       <Achats /> */}
       {/*fin */}
 
@@ -57,15 +60,16 @@ function App() {
        <SignUp /> 
        <Header />
       <InterfaceClinets />
+      <Header_club />
        <InterfaceClub />  */}
-           
-           
+
+
 
 
 
 
     </div>
-    
+
   );
 }
 
